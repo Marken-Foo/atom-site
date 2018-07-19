@@ -2,3 +2,21 @@ baseURL = "https://atomblog.netlify.com/"
 languageCode = "en-us"
 title = "An atomic blog"
 theme = "hugo-xmin-theme"
+copyright = "Illion 2017-2018"
+
+[params]
+    author = "Illion"
+	footer = "&copy; [Illion](https://lichess.org/@/Illion) 2017-2018 | Theme [Hugo XMin](https://xmin.yihui.name/) by Xie Yihui"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+	article = "/:slug/"
+
+[[menu.main]]
+    name = "Home"
+	url = "/"
+	weight = 1
+[[menu.main]]
+    name = "About"
+	url = "/about/"
+	weight = 2
