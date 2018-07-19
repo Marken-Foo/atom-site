@@ -14,4 +14,4 @@ Is a sample of Latin writing.
 
 Is the following:
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/pBegZCdB/white#51?theme=auto&bg=light"></iframe>
+<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/pBegZCdB/white#51?theme=auto&amp;bg=light"></iframe>
