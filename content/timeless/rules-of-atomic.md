@@ -1,6 +1,10 @@
 +++
 title = "Rules of atomic"
 date = 2017-08-19T11:14:36+02:00
+description = "An explanation of the rules of atomic chess for the beginner."
+
+slug = "atomic-rules"
+type = "timeless"
 +++
 
 # Rules of atomic chess #
