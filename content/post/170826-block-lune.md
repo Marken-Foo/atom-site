@@ -24,7 +24,7 @@ The *block* comprises two of your pawns next to each other on the same rank (e.g
 
 The *lune* occurs when one of your pawns is head-to-head with an opponent's pawn (e.g. white pawn on b4, black pawn on b5), and the other two pawns are behind them (e.g. a white pawn on a2/a3 and a black pawn on a6/a7.) With this structure, either side can force the exchange of at least one pair of pawns, and the remaining pawns can either be exchanged off or pass each other. This formation yields the opposite results of the block, and can be used to secure complications or open lines.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/uZFAS28p/gKEmO6RI?theme=auto&amp;bg=light"></iframe>
+<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/uZFAS28p/gKEmO6RI"></iframe>
 
 [//]: # (FEN: 8/8/1pp3p1/5p2/1PP2P2/6P1/8/8 w - - 0 1)
 
@@ -34,7 +34,7 @@ In a winning endgame, the player with the advantage typically prefers to make bl
 
 The simplest example (which incidentally highlights the basic block/lune struggle) is the following position.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/uZFAS28p/4tT8tOjo#0?theme=auto&amp;bg=light"></iframe>
+<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/uZFAS28p/4tT8tOjo"></iframe>
 
 [//]: # (FEN: 8/8/8/pp6/8/1P5k/P6P/7K w - - 0 1)
 
@@ -46,7 +46,7 @@ In practice, usually one side is trying to open the position (say, to get open f
 
 The following example is rather involved if we calculate the lines to their ends, but it's intuitive once we understand the strategic demands of the position.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/uZFAS28p/pcN87F9E#0?theme=auto&amp;bg=light"></iframe>
+<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/uZFAS28p/pcN87F9E"></iframe>
 
 [//]: # (FEN: r2k1r2/p4P1p/1p2p1p1/3p4/1PpP2PP/2P5/P7/2RK3R b - - 0 1)
 
