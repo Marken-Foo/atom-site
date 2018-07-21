@@ -65,15 +65,15 @@ After playing each game, it's also good to take stock of how it went: how easy w
 
 At this point, I'd like to present (your remaining attention span permitting) a few tenets I have with regard to the process of learning openings.
 
-**Every move is playable unless I know a reason why not**
+### Every move is playable unless I know a reason why not ###
 
 I know that 1. Nf3 f6 2. Nc3 e6? 3. Nb5 gives white a knight invasion absolutely for free, so I don't play 2...e6. I didn't know how to punish 1. Nh3 f6 even though it had a bad reputation, so I played it as black to find out firsthand why. In fact, I did the same thing for a variety of openings. (1. Nf3 f6 2. e3 d6?!, 1. Nf3 f6 2. Nd4 Nh6 3. e3 e6?!, 1. Nf3 e5?!, 1. d4 d5 2. e4 e5...) Playing these "bad" lines myself forced me to be creative with the inferior side - there's nothing quite like struggling to find playable moves to make you realise that your position is in fact terrible. Once suitably convinced by a few critical games that there's nothing I can do to improve my position after the first "bad" move (read: I couldn't find even a sliver of counterplay during the refuting sequence), I accept the outcome and adopt my opponent's refutation for future use.
 
-**Expose yourself to a variety of structures**
+### Expose yourself to a variety of structures ###
 
 Suffering through bad openings is one of the ways to do so, reaching different types of positions that you wouldn't otherwise encounter just by playing common mainlines. (Of course, you could just play sound but less common lines too.) It keeps you on your toes and forces you to think originally, improving your overall instinct for atomic instead of just adding to your opening knowledge. Certain themes you see from dubious lines can also appear in other sound lines and give you understanding "for free". Take for example 1. Nf3 e5?! 2. Ng5 f5; we see echoes of this inferior black option in 1. Nc3 Nf6 2. e4 Ng4 (where the extra tempo here is of huge benefit to white) and in 1. Nh3 e6 2. Ng5 (where having the pawn on e6 is a significant change - d4 isn't mined so ...Qd4 can be a potential threat, Ne5-d7 is a possible rerouting, ...Qf6-a6 isn't available, etc.)
 
-**Know the logic behind your moves**
+### Know the logic behind your moves ###
 
 For every move there's a reason behind it, ranging from the banal to the wistful. For example, from an opening I've recently been trying to learn as white:
 1. Nh3 (development; also a marginally less common choice) h6
@@ -88,11 +88,11 @@ For every move there's a reason behind it, ranging from the banal to the wistful
 
 When I have a reason for each move, I can then see if all my moves fit into a consistent narrative. If there's any inconsistency (e.g. I prepare an a4-a5-a6 push but never play it all game) then it may be a sign that something's wrong and that I need to relook my moves or my understanding.
 
-**Exploit the engine and the opening book - with caution**
+### Exploit the engine and the opening book - with caution ###
 
 As I described above, I want to understand each move I play. Opening books and engines do not provide this reasoning behind the moves that are recommended. It's often the case that engine moves are good, but on principle I want to be able to ascribe a human reason to it (a tactical justification, a strategic motivation, or just a lack of better alternatives) before I'm willing to play the move. Opening book moves are a different type of aid; the results (white win/black win/draw) are to be taken with a large bag of salt, but at least it allows you to see what others have tried and how real games panned out. (I might go into more detail about how I view the lichess opening explorer another time, for it's as useful as it is deceptive.)
 
-**Keep evolving**
+### Keep evolving ###
 
 Once you feel like you've sufficiently prepared a particular opening... cast it aside. It's difficult to prepare something and then play it only infrequently thereafter, but it's also stifling to only ever stay in one's comfort zone. If you feel you can hold your own in a particular opening, it might be a good time to move on to learn another one. Understanding a wide variety of positions is more likely to help you than specialising 20 moves deep in a single line, -even- if you can force that line as white (besides, within 20 moves there're bound to be many, many playable deviations for your opponent along the way.) Also, you'll learn more from 1 loss in a fresh opening you're trying out than from dozens of identical 8-move-long games where your opponents all fell for the same trap. As white, I don't always play my preferred opening (1. Nf3 f6 2. e3 d5 3. Bd3) even if it's the one I'm most comfortable with - better to diversify.
 

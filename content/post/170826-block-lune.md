@@ -17,7 +17,7 @@ After many games I came to a fundamentally different way of thinking about pawns
 The block and the lune are two closely-related basic microstructures that come in very handy when thinking about endgames and middlegames.
 
 
-# Block and lune #
+## Block and lune ##
 Both these structures involve a pair of your pawns in adjacent columns, and a pair of enemy pawns in the same columns.
 
 The *block* comprises two of your pawns next to each other on the same rank (e.g. wPa4, wPb4). In this formation you can always keep the position closed. Whichever of your opponent's pawns comes forward to capture, you can push your threatened pawn past it, keeping all four pawns on the board and both files closed. It's good to use if you're ahead on material and want to simplify to a winning endgame, avoiding the complications of having open files and passed pawns of both colours.
@@ -29,7 +29,7 @@ The *lune* occurs when one of your pawns is head-to-head with an opponent's pawn
 [//]: # (FEN: 8/8/1pp3p1/5p2/1PP2P2/6P1/8/8 w - - 0 1)
 
 
-## In endgames ##
+### In endgames ###
 In a winning endgame, the player with the advantage typically prefers to make blocks (to ensure at least a pair of blocked pawns on the board to win 1 queen up), while the defending player usually wants lunes (to trade all pawns and connect kings, or to get counterplay with their own passed pawns.) There is thus a struggle to be the first player to create the microstructure favouring them.
 
 The simplest example (which incidentally highlights the basic block/lune struggle) is the following position.
@@ -41,7 +41,7 @@ The simplest example (which incidentally highlights the basic block/lune struggl
 White to play is up a pawn, and the kings are essentially already connected. However, the queenside pawns aren't quite stabilised yet. Black wants to trade off all the pawns to leave a drawn KQ v K ending; White wants to leave pawns on the board to reach a winning KQP v KP ending. This is where understanding the block/lune microstructures comes in handy: we would immediately see that the correct move for white is to leave a block with 1. a3!. Any other first move will be met with black making a lune and trading pawns, drawing. (As black's pawns are further advanced, white cannot afford to give black a passed pawn, so will trade both pairs in the lune.)
 
 
-## In middlegames ##
+### In middlegames ###
 In practice, usually one side is trying to open the position (say, to get open files for a rook) while the other is trying to keep things closed (to defend against the rook invasion.) The side trying to open the position will attempt to make a lune, while the other side tries to set up a block. Which side succeeds will affect how the game unfolds.
 
 The following example is rather involved if we calculate the lines to their ends, but it's intuitive once we understand the strategic demands of the position.

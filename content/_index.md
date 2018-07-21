@@ -2,11 +2,11 @@
 title = "Home"
 +++
 
-[//]: # (tag list: n2n, tactics, endgames, general-advice, patterns, pawns, invasions)
+[//]: # (tag list: n2n, tactics, endgames, general-advice, patterns, pawns, invasions, pawnitisation)
 
-# ILLION'S ATOMIC SITE
+## ILLION'S ATOMIC SITE
 
-## A miniature rose.
+### A miniature rose.
 
 Beginning to port the [original blog](https://lichess.org/forum/team-illions-atomic-blog) from lichess forums (not the best content management/blogging platform in the world I must say) to some bare-bones thing I'm trying to grab control of.
 

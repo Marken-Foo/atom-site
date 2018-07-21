@@ -10,14 +10,5 @@ type = ""
 draft = true
 +++
 
-# Sample article #
-
-## Lorem ipsum ##
-
-Is a sample of Latin writing.
-
-## An embedded lichess game ##
-
-Is the following:
-
+Embed code (to be replaced with Hugo shortcode when I can)
 <iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/pBegZCdB/white#51"></iframe>

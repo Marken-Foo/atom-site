@@ -15,7 +15,7 @@ Because captures trigger an explosion that affect adjacent squares, you should a
 I thus got into the habit of checking for what I call "mined squares". These are squares that are adjacent to my attacked pieces and pawns, as the opponent could potentially win material were I to carelessly leave my pieces next to each other. This helps to avoid straight-up blundering material, and also shapes strategic play, as leaving too many squares mined by your pawn structure can ultimately be a fatal mistake. Let's look at several examples.
 
 
-# Direct examples #
+## Direct examples ##
 A basic example is the position after 1. e4 d5. The squares around e4 (e5, d4, d3, e3, f3, f4, f5) are mined for white, and from this you can see that 2. Qh5 g6 3. Qe5?? is bad, since e5 was mined - 3...dxe4 wins the queen. (Compare this to 1. e3 d5?, where e5 is not mined, then 2. Qh5 g6 3. Qe5 Be6 4. Qxc7 would win material.) This is a simple case of mining being used as a safety check to avoid losing material.
 
 Play could continue instead 2. d4 Na6 3. Na3 Nb4 4. Bg5 f6 5. Nb5 Bg4 6. f3 Nxc2 7. Nxc7, and here we choose 7...a6!, defending against Bb5+. The other choice 7...b5 mines b4, preventing the active development ...Bb4 since it would lose a pawn to Bxb5. 7...a6 is therefore strategically more flexible, leaving the bishop more development options due to fewer important squares being mined.
@@ -30,7 +30,7 @@ In this particular position there is also a more concrete reason: consider the c
 
 <iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/9GFpNdwd/ZxPVhgbj#12"></iframe>
 
-# Advanced example #
+## Advanced example ##
 Subtler examples of mining can be found in endgames. Instead of a direct attack on a piece that mines a square, the mere threat of a passed pawn does the job.
 
 In the following position, white is a pawn up but cannot directly promote a pawn without black trading off his last pawn and reaching a drawn KQ v K connected king endgame. The subtle winning technique is to force a zugzwang in order to allow white's b-pawn to push past black's c-pawn. We start by realising that black's king can be trapped in the corner!

@@ -20,3 +20,7 @@ copyright = "Illion 2017-2018"
     name = "About"
 	url = "/about/"
 	weight = 2
+[[menu.main]]
+    name = "Rules of atomic"
+	url = "/atomic-rules/"
+	weight = 3
