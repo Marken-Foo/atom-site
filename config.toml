@@ -1,6 +1,6 @@
 baseURL = "https://atomblog.netlify.com/"
 languageCode = "en-us"
-title = "An atomic blog"
+title = "Ars Atomica"
 theme = "hugo-xmin-theme"
 copyright = "Illion 2017-2018"
 

@@ -1,9 +1,13 @@
 <!-- Shortcode to do a lichess iframe embed off of a regular lichess URL -->
 <!-- Assumes input is of form "https://lichess.org[/study]/r4nd0ml3773rs" -->
+<!-- Will put trailing # at end of URLs - to be changed? -->
 {{ $url := urls.Parse (.Get "src") }}
-{{ if len (findRE "study" $url.Path) }}
-    {{ .Scratch.Set "out" (delimit (slice $url.Scheme "://" $url.Host "/study/embed" (slicestr $url.Path 6) "#" $url.Fragment)  "") }}
+{{ if in $url.Path "study" }}
+    {{ $.Scratch.Set "out" (printf "%s://%s/study/embed/%s" $url.Scheme $url.Host (slicestr $url.Path 7)) }}
 {{ else }}
-    {{ .Scratch.Set "out" (delimit (slice $url.Scheme "://" $url.Host "/embed" $url.Path "#" $url.Fragment) "") }}
+    {{ $.Scratch.Set "out" (printf "%s://%s/embed/%s" $url.Scheme $url.Host (slicestr $url.Path 1)) }}
 {{ end }}
-<iframe width=800 height=495 frameborder=0 src="{{ .Scratch.Get "out" }}"></iframe>
+{{ if not (len $url.Fragment | eq 0) }}
+    {{ $.Scratch.Add "out" (printf "#%s" $url.Fragment) }}
+{{ end }}
+<iframe width="800" height="495" frameborder="0" src="{{ $.Scratch.Get "out" }}"></iframe>
