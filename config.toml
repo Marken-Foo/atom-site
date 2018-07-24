@@ -10,7 +10,7 @@ copyright = "Illion 2017-2018"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-	article = "/:slug/"
+	timeless = "/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -24,3 +24,10 @@ copyright = "Illion 2017-2018"
     name = "Rules of atomic"
 	url = "/atomic-rules/"
 	weight = 3
+[[menu.main]]
+    name = "Blog"
+	url = "/content/"
+	weight = 4
+[[menu.main]]
+    name = "Links"
+	url = "/links/"

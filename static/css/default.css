@@ -1,0 +1,30 @@
+/* Fonts */
+body {
+	font-family: Palatino, Garamond, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+/* To handle embedded lichess iframes*/
+iframe[src*="lichess"] {
+	border: none;
+	max-width: 80%;
+	width: 600px;
+	height: 371px;
+}
+
+/* navbar */
+.navbar li {
+	display: inline-block;
+	background: #333333;
+	padding: 6px;
+	border-radius: 4px;
+}
+.navbar a { color: white; }
+.navbar a:link { color: white; }
+.navbar a:visited { color: gray; }
+.navbar a:focus { color: yellow; }
+.navbar a:hover { color: orange; }
+.navbar a:active { color: orange; }

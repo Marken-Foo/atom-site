@@ -1,6 +1,9 @@
-<!-- Shortcode to do a lichess iframe embed off of a regular lichess URL -->
-<!-- Assumes input is of form "https://lichess.org[/study]/r4nd0ml3773rs" -->
-<!-- Will put trailing # at end of URLs - to be changed? -->
+<!--
+  Shortcode to do a lichess iframe embed off of a regular lichess URL
+  Assumes input is of form "https://lichess.org[/study]/r4nd0ml3773rs"
+  Need to figure out how to sandbox enough
+-->
+
 {{ $url := urls.Parse (.Get "src") }}
 {{ if in $url.Path "study" }}
     {{ $.Scratch.Set "out" (printf "%s://%s/study/embed/%s" $url.Scheme $url.Host (slicestr $url.Path 7)) }}
@@ -10,4 +13,6 @@
 {{ if not (len $url.Fragment | eq 0) }}
     {{ $.Scratch.Add "out" (printf "#%s" $url.Fragment) }}
 {{ end }}
-<iframe width="800" height="495" frameborder="0" src="{{ $.Scratch.Get "out" }}"></iframe>
+<iframe src="{{ $.Scratch.Get "out" }}">
+  <p>Embedded chessboard from <a href="{{ $.Scratch.Get "out" }}">lichess.org</a></p>
+</iframe>
