@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body>
+{{ partial "header.html" . }}
+
+<div class="section-header-box">
+<h1><span class="title">{{ .Title }}</span></h1>
+{{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+{{ if (gt .Params.date 0) }}
+  {{ .Date.Format "2006/01/02" }}
+{{ end }}
+</div>
+
+<main>
+  {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}
+</body>
+
+</html>

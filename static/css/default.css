@@ -1,10 +1,42 @@
-/* Fonts */
 body {
-	font-family: Palatino, Garamond, serif;
+	font-family: Garamond, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Verdana, Helvetica, sans-serif;
+}
+
+.logo-text {
+	font-size: 300%;
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.section-header-box {
+	background: silver;
+	border-radius: 4px;
+	font-size: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 1em;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* To abuse triple backtick <pre> as chess notation */
+pre {
+	max-width: 700px;
+	white-space: pre-wrap;
+}
+
+code {
+	font-family: "Courier New", serif;
 }
 
 /* To handle embedded lichess iframes*/
@@ -16,15 +48,33 @@ iframe[src*="lichess"] {
 }
 
 /* navbar */
-.navbar li {
-	display: inline-block;
+nav {
 	background: #333333;
-	padding: 6px;
 	border-radius: 4px;
+	display: block;
+	line-height: 100%;
+	margin: 0 auto;
+	padding-left: 10%;
 }
-.navbar a { color: white; }
+
+.navbar li {
+	background: #333333;
+	display: inline-block;
+    margin: 0;
+	padding: 0;
+}
+
+.navbar a {
+	color: white;
+	display: block;
+    height: 100%;
+	line-height: 100%;
+    margin: 0;
+	padding: 1em;
+	text-decoration: none;
+}
 .navbar a:link { color: white; }
-.navbar a:visited { color: gray; }
+.navbar a:visited { ; }
 .navbar a:focus { color: yellow; }
-.navbar a:hover { color: orange; }
+.navbar a:hover { background: gray; color: orange; }
 .navbar a:active { color: orange; }
