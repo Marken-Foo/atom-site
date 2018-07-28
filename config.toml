@@ -25,7 +25,7 @@ copyright = "Illion 2017-2018"
 	weight = 3
 [[menu.main]]
     name = "Blog"
-	url = "/content/"
+	url = "/blog/"
 	weight = 4
 [[menu.main]]
     name = "Links"
