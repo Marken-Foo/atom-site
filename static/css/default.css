@@ -1,5 +1,6 @@
 body {
-	font-family: Garamond, serif;
+	font-family: serif;
+	font-size: 120%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 main {
 	display: flex;
 	flex-direction: column;
-	max-width: 1000px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 

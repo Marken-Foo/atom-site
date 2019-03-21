@@ -15,7 +15,6 @@ This should be `inline code` that I can repurpose for chess notation. Like `1. e
 ```
 Or even some pure "code" goodness.
 1. Nf3 f6 2. e3 e6 3. Bd3 g6 4. b4 Nc6 5. Bb2 Nd4 6. Ne5 d5 7. Nf7 Qd6 8. Bb5+ c6 9. Bxd4 Qb8!
-WARNING: TRIPLE BACKTICK USES <pre></pre> AND BREAKS WRAP
 ```
 Therefore TODO:
 
@@ -27,4 +26,8 @@ Therefore TODO:
 
 With thanks to GitHub, Hugo, Netlify, Hugo XMin, and those physics profs who taught me how to deal with Git!
 
-{{< lichess-embed src="https://lichess.org/study/Dc345Be0/Yqsws9ov" >}}
+{{< lichess-embed src="https://lichess.org/study/Dc345Be0/Yqsws9ov#2" >}}
+{{< lichess-embed src="https://lichess.org/study/Dc345Be0/Yqsws9ov#3" >}}
+{{< lichess-embed src="https://lichess.org/study/Dc345Be0/Yqsws9ov#4" >}}
+
+<button>Click me!</button>
