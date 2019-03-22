@@ -23,11 +23,11 @@ Therefore TODO:
 - css the \<code\> tag to use FS T1
 - Profit (can use regex to grep all moves between backticks, etc.)
 
+<p style="font-famiy:FigurineSymbol">rnbkqn</p>
+
 
 With thanks to GitHub, Hugo, Netlify, Hugo XMin, and those physics profs who taught me how to deal with Git!
 
 {{< lichess-embed src="https://lichess.org/study/Dc345Be0/Yqsws9ov#2" >}}
 {{< lichess-embed src="https://lichess.org/study/Dc345Be0/Yqsws9ov#3" >}}
 {{< lichess-embed src="https://lichess.org/study/Dc345Be0/Yqsws9ov#4" >}}
-
-<button>Click me!</button>

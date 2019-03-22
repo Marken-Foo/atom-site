@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'FigurineSymbol';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/FIG-TN-1.TTF') format('truetype');
+}
+
 body {
 	font-family: serif;
 	font-size: 120%;

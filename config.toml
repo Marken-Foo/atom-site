@@ -1,11 +1,11 @@
 baseURL = "https://atomblog.netlify.com/"
 languageCode = "en-us"
 title = "Ars Atomica"
-copyright = "Illion 2017-2018"
+copyright = "Illion 2017-2019"
 
 [params]
     author = "Illion"
-	footer = "&copy; [Illion](https://lichess.org/@/Illion) 2017-2018 | Theme by Marken Foo"
+	footer = "&copy; [Illion](https://lichess.org/@/Illion) 2017-2019 | Theme by Marken Foo"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"

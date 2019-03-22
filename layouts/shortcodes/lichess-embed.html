@@ -12,6 +12,8 @@
 {{ if (len $url.Fragment | ne 0) }}
     {{ $.Scratch.Add "out" (printf "#%s" $url.Fragment) }}
 {{ end }}
+<div class="container">
 <iframe src="{{ $.Scratch.Get "out" }}" class="lichess-board" data-url="{{ $.Scratch.Get "out" }}">
   <p>Embedded chessboard from <a href="{{ $.Scratch.Get "out" }}">lichess.org</a></p>
 </iframe>
+</div>
