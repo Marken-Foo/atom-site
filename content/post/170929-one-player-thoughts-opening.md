@@ -4,7 +4,9 @@ date = 2017-09-29T21:22:24+02:00
 description = ""
 
 slug = "one-player-thoughts-opening"
-tags = ["general-advice", "opening", "ramble"]
+categories = ["blog"]
+series = []
+tags = ["general-advice", "openings", "ramble"]
 type = "post"
 +++
 

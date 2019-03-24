@@ -4,6 +4,8 @@ date = 2017-09-22T22:33:46+02:00
 description = ""
 
 slug = "n-b-mating-invasion"
+categories = ["blog"]
+series = []
 tags = ["patterns", "tactics", "invasions"]
 type = "post"
 +++

@@ -4,6 +4,8 @@ date = 2017-10-06T21:59:27+02:00
 description = ""
 
 slug = "pawnitisation-bad-b"
+categories = ["blog"]
+series = []
 tags = ["pawnitisation", "endgames"]
 type = "post"
 +++

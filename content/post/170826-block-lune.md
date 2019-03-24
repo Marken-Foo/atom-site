@@ -4,6 +4,8 @@ date = 2017-08-26T21:58:40+02:00
 description = ""
 
 slug = "block-lune"
+categories = ["blog"]
+series = []
 tags = ["patterns", "pawns"]
 type = "post"
 +++

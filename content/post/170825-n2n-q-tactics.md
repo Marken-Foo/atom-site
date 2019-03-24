@@ -4,7 +4,9 @@ date = 2017-08-25T20:16:52+02:00
 description = ""
 
 slug = "n2n-opening-q-tactics"
-tags = ["n2n", "tactics"]
+categories = ["blog"]
+series = ["New-to-nuke"]
+tags = ["New-to-nuke", "beginner", "tactics"]
 type = "post"
 +++
 

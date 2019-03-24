@@ -4,7 +4,9 @@ date = 2017-08-21T01:57:14+02:00
 description = ""
 
 slug = "n2n-first-steps"
-tags = ["n2n", "general-advice"]
+categories = ["blog"]
+series = ["New-to-nuke"]
+tags = ["New-to-nuke", "general-advice", "beginner"]
 type = "post"
 +++
 

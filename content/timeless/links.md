@@ -1,9 +1,11 @@
 +++
 title = "Links"
-date = 2018-07-28T10:08:46+02:00
+date = 2019-03-24T20:48:46+08:00
 description = "Links to all kinds of useful sites"
 
 slug = "links"
+categories = ["Reference"]
+series = []
 tags = []
 type = "timeless"
 +++
@@ -15,7 +17,7 @@ Here is a set of links to good sites:
 
 
 ## Who can I discuss with? ##
-[My blog group](https://lichess.org/team/illions-atomic-blog-discussion) - Join this lichess group for updates to my site, and to discuss atomic chess with other players.
+[//]: # ( [My blog group](https://lichess.org/team/illions-atomic-blog-discussion) - Join this lichess group for updates to my site, and to discuss atomic chess with other players. )
 
 [Atomic Chess Theoreticians](https://lichess.org/team/atomic-chess-theoreticians) - The biggest atomic chess discussion group on lichess. Created at the start of 2015, it has since gathered numerous discussions on everything from opening lines to writing computer engines. Many strong players tend to lurk here.
 
@@ -28,3 +30,6 @@ Here is a set of links to good sites:
 [tipau's YouTube channel](https://www.youtube.com/channel/UC1hX5Um-piTIyCLPRr8br8A) - A YouTube channel by the 2016 world champion and one of the all-time strongest atomic players, tipau has covered endgames and certain openings in great detail in his videos.
 
 [ProgramFOX's YouTube channel](https://www.youtube.com/channel/UCmx82Kgy9ALzAcmti0LwkJw/featured) - The creator of the Chess Variants Training site (see above) also from time to time streams and uploads videos of playing high-level atomic chess.
+
+## Who else is out there? ##
+[Chronatog](https://chronatog.com/) - Chronatog has been around the variant chess scene an inordinately long time, plays or played many variants to the highest levels (atomic, but also antichess, wild5 and others), and knows many players past and present. His site is currently a great archive of interviews with old players from many different servers and some old games.

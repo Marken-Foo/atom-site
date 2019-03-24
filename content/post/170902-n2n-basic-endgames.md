@@ -4,7 +4,9 @@ date = 2017-09-02T01:11:43+02:00
 description = ""
 
 slug = "n2n-basic-endgames"
-tags = ["n2n", "endgames"]
+categories = ["blog"]
+series = ["New-to-nuke"]
+tags = ["New-to-nuke", "beginner", "endgames"]
 type = "post"
 +++
 

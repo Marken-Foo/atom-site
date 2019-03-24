@@ -10,7 +10,12 @@ copyright = "Illion 2017-2019"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 	timeless = "/:slug/"
-
+	
+[taxonomies]
+	category = "categories"
+	series = "series"
+	tag = "tags"
+	
 [[menu.main]]
     name = "Home"
 	url = "/"
@@ -25,8 +30,10 @@ copyright = "Illion 2017-2019"
 	weight = 3
 [[menu.main]]
     name = "Blog"
-	url = "/blog/"
+	url = "/categories/blog/"
 	weight = 4
 [[menu.main]]
     name = "Links"
 	url = "/links/"
+	weight = 5
+	

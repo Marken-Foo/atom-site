@@ -4,8 +4,10 @@ date = {{ .Date }}
 description = ""
 
 slug = ""
+categories = []
 tags = []
 type = ""
+series = []
 
 draft = true
 +++

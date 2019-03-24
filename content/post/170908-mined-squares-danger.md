@@ -4,6 +4,8 @@ date = 2017-09-08T22:33:42+02:00
 description = ""
 
 slug = "mined-squares-danger"
+categories = ["blog"]
+series = []
 tags = ["general-advice"]
 type = "post"
 +++

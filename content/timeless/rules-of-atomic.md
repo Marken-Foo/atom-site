@@ -4,8 +4,10 @@ date = 2017-08-19T11:14:36+02:00
 description = "An explanation of the rules of atomic chess for the beginner."
 
 slug = "atomic-rules"
-tags = []
+categories = ["reference"]
+tags = ["rules", "beginner"]
 type = "timeless"
+series = []
 +++
 
 Welcome to atomic chess! The variant rules are also explained at [their own page on lichess](https://lichess.org/variant/atomic), but not many people know about that page, and the rules about checks may seem unclear at first. Presented here are all the rules with examples to show you what it all means.

@@ -4,7 +4,9 @@ date = 2017-09-15T22:21:47+02:00
 description = ""
 
 slug = "n2n-r-invasions"
-tags = ["n2n", "invasions"]
+categories = ["blog"]
+series = ["New-to-nuke"]
+tags = ["New-to-nuke", "beginner", "invasions"]
 type = "post"
 +++
 

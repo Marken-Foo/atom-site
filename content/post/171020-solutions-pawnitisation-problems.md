@@ -4,6 +4,8 @@ date = 2017-10-20T22:03:07+02:00
 description = ""
 
 slug = "solutions-pawnitisation-problems"
+categories = ["blog"]
+series = []
 tags = ["pawnitisation", "endgames", "pawns", "tactics"]
 type = "post"
 +++

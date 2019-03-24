@@ -3,7 +3,9 @@
   <nav>
   <ul class="navbar">
     {{ range .Site.Menus.main }}
-    <li><a href="{{ relURL .URL }}">{{ .Name }}</a></li>
+    <li>
+    <a href="{{ relURL .URL }}">{{ .Name }}</a>
+	</li>
     {{ end }}
   </ul>
   </nav>
