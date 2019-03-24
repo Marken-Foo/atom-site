@@ -8,7 +8,7 @@ title = "Home"
 
 [//]: # (category list: blog, reference)
 [//]: # (series list: New-to-nuke)
-[//]: # (tag list: New-to-nuke, tactics, openings, endgames, general-advice, patterns, pawns, invasions, pawnitisation, beginner, rules)
+[//]: # (tag list: New-to-nuke, tactics, openings, endgames, game-analysis, general-advice, patterns, pawns, invasions, pawnitisation, beginner, rules)
 
 Welcome to Illion's atomic site!
 

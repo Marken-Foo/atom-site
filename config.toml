@@ -33,7 +33,11 @@ copyright = "Illion 2017-2019"
 	url = "/categories/blog/"
 	weight = 4
 [[menu.main]]
+	name = "Resources"
+	url = "/resources/"
+	weight = 5
+[[menu.main]]
     name = "Links"
 	url = "/links/"
-	weight = 5
+	weight = 6
 	

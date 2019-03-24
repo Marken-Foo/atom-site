@@ -14,7 +14,7 @@
 <main>
   {{ .Content }}
   {{ if (gt .Params.date 0) }}
-    <em>Last updated: {{ .Date.Format "2006-01-02 15:04" }}</em>
+    <em>Last updated: {{ .Lastmod.Format "2006-01-02 15:04" }}</em>
   {{ end }}
 </main>
 

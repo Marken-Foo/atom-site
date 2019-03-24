@@ -7,7 +7,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Verdana, Helvetica, sans-serif;
 }
 
+img.logo {
+	width: 20%;
+	height: auto;
+}
+
 .logo-text {
+	font-family: Bookman Antiqua, serif;
 	font-size: 300%;
 	margin: 0 auto;
 	max-width: 80%;
