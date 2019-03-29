@@ -21,7 +21,8 @@ As white, I prefer a less popular interpretation of 1. Nf3 f6 2. e3 d5; I contin
 
 For our purposes here, I'd like to show a game in the following line: 1. Nf3 f6 2. e3 d5 3. Bd3 g6 4. Nd4 Bg4 5. f3 Nc6. At this point, 6. Nb5?! is a trick I throw in once in a while that isn't totally sound. Black logically continued 6...Nb4, then I blundered instantly with 7. c3?? :
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/XE5ZpZnz#13"></iframe>
+{{< lichess-embed src="https://lichess.org/XE5ZpZnz#13" >}}
+[//]: # (FEN: r2qkbnr/ppp1p2p/5pp1/1N1p4/1n4b1/2PBPP2/PP1P2PP/RNBQK2R b KQkq - 0 7)
 
 And here the winning tactical sequence appears: 7...Nc2+ 8. Kf1 Ne1 9. g3 Bh3+ 10. Kg1 Bg2 and mate next. The two minor pieces get right into white's position and make the king suffocate among his own pieces. Having seen this too many times before (but not enough to avoid walking right into it!) I resigned after 9. g3.
 
@@ -31,16 +32,18 @@ As you probably realise, this tactic requires a rather specific set of condition
 ## The tactic in the wild ##
 Now for a completely different setting: I tossed out a somewhat dubious line to reach an interesting position out of the opening, nothing to do with the line above. (1. Nh3 f6 is probably bad for black, but the refutation I'm aware of is specific, long and "only" gets a massive positional advantage.) Quite a few moves after we both left book, this position arose:
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/XFlECLzg/black#25"></iframe>
+{{< lichess-embed src="https://lichess.org/XFlECLzg/black#25" >}}
+[//]: # (FEN: r2qkb2/p7/5pp1/1p1pp3/P4Pb1/2P1PQ2/1P1P1nPP/R1B1K2R b KQq - 4 13)
 
 White's position has been unfortunate for a while (10. Bxc6 was too slow), but after 13. Qf3 black now has the same mating sequence that we saw earlier. This time I didn't drop the ball:
 13...Nd3+ 14. Kf1 Ne1 15. g3 Bh3+ 16. Kg1 Bg2+ and white resigned.
 
 
-## Almost the tactic in 1/2+0 ##
+## Almost the tactic in 1/2 + 0 ##
 Even in a hyperbullet game (!) this pattern was executed to the same finish, but this time one of the conditions wasn't met.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/fRardk5d#21"></iframe>
+{{< lichess-embed src="https://lichess.org/fRardk5d#21" >}}
+[//]: # (FEN: r1b1kb1r/pp3ppp/2p2n2/1B1pp3/4P3/2PP1P2/PPn3PP/R1BQ1K1R b kq - 0 11)
 
 White has just played 11. e4, claiming the centre. Now the game continued 11...Ne1+ 12. g3 Bh3+ 13. Kg1 Bg2 and white resigned, exactly as in the other examples. So what's different?
 
@@ -52,7 +55,8 @@ Let's return to the line from the first game. After 6. Nb5 Nb4, white is facing 
 
 So instead, throwing in 7. Bf5 is white's best shot, threatening Bd7+ while also defending h3. If black tries to go for the same tactic after 7. Bf5 e6 8. c3 Nc2+ 9. Kf1 Ne1 10. g3 Bh3+, we see that white's bishop now covers this threat, and after 11. Bxh3 white is better, like in the following game:
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/vDs7yOrA#12"></iframe>
+{{< lichess-embed src="https://lichess.org/vDs7yOrA#12" >}}
+[//]: # (FEN: r2qkbnr/ppp1p2p/5pp1/1N1p4/1n4b1/3BPP2/PPPP2PP/RNBQK2R w KQkq - 3 7)
 
 -----------
 

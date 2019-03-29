@@ -20,7 +20,8 @@ Calculating whether a rook invasion is winning or merely drawing can be complica
 ## The mating pattern ##
 The following pattern is a forced mate in 1: a rook, the enemy king and an enemy piece all in a line with no spaces in between. This is a check, and the enemy king cannot avoid the explosion next turn (rook takes piece, mate).
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/2lC2jkJj/54BTfDt2#1"></iframe>
+{{< lichess-embed src="https://lichess.org/study/2lC2jkJj/54BTfDt2#1" >}}
+[//]: # (FEN: 8/8/4kp2/8/8/8/8/3RK3 w - - 0 1)
 
 This simple pattern is important in calculating rook middlegames and endgames.
 
@@ -35,7 +36,8 @@ The 2x2 square cannot have friendly (the king's side) pieces adjacent to its sid
 
 A diagram should show this more clearly than I can explain in words:
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/2lC2jkJj/RulfLTM1"></iframe>
+{{< lichess-embed src="https://lichess.org/study/2lC2jkJj/RulfLTM1" >}}
+[//]: # (FEN: 4k3/8/2p2p2/8/8/8/8/3RK3 w - - 0 1)
 
 The 2x2 rule gives a sufficient but not necessary condition for safety. In other words, there may be cases where there isn't a 2x2 square yet the king can escape to safety elsewhere anyway. But you can be sure that with a 2x2 square, the opponent will need more than just the rook to win.
 
@@ -45,27 +47,32 @@ Let's look at two examples of winning rook invasions, where the enemy king doesn
 
 Calculating an invasion out to mate can take some effort, but fortunately most of the moves are forced, and really tricky cases don't appear in games very often.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/2lC2jkJj/RdgXDc2k"></iframe>
+{{< lichess-embed src="https://lichess.org/study/2lC2jkJj/RdgXDc2k" >}}
+[//]: # (FEN: 6k1/8/5p1p/8/8/8/8/3RK3 w - - 0 1)
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/2lC2jkJj/6UILsj0v"></iframe>
+{{< lichess-embed src="https://lichess.org/study/2lC2jkJj/6UILsj0v" >}}
+[//]: # (FEN: 4k3/2p3p1/8/8/8/8/8/5RK1 w - - 0 1)
 
 The third position is slightly longer and is given as an exercise for the reader; view it in the original lichess study as an [interactive lesson](https://lichess.org/study/2lC2jkJj/RNJ147Bm). You can also click on the link at the bottom of the diagram. White to play and win.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/2lC2jkJj/RNJ147Bm"></iframe>
+{{< lichess-embed src="https://lichess.org/study/2lC2jkJj/RNJ147Bm" >}}
+[//]: # (FEN: 4k3/2p3p1/8/5p2/8/8/8/3RK3 w - - 0 1)
 
 
 ## Making luft ##
 In regular chess, moving any pawn in front of the king is enough to stop back-rank mates. In atomic, the king needs quite a bit more space against a rook invasion. When you're defending, the 2x2 rule can be extremely useful, allowing you to see the correct defence with almost no calculation. In the following example, the 2x2 rule lets you find the only move to survive very quickly.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/2lC2jkJj/c252d25g"></iframe>
+{{< lichess-embed src="https://lichess.org/study/2lC2jkJj/c252d25g" >}}
+[//]: # (FEN: 2k5/8/8/8/8/r7/5P1P/6K1 w - - 0 1)
 
 The following position shows an application of the 2x2 rule in an actual game, kreedz-Illion. With 21...Rxg2, black threatened a rook invasion along the g-file. White reacted correctly with 22. h3!, immediately giving the king safety (2x2 square f1, f2, g1, g2). If for example 22. Bxb4? instead, 22...h3! fixes the white pawn on h2, and black will win with ...Rg8 next, invading. (22. f6 and 22. Kf2 are also fine to draw.)
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/zICrtk9p#42"></iframe>
+{{< lichess-embed src="https://lichess.org/zICrtk9p#42" >}}
 
 Finally, an exercise: can you find the only defence for white? Again, view it on lichess as an [interactive lesson](https://lichess.org/study/2lC2jkJj/WKgOe2ld).
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/2lC2jkJj/WKgOe2ld"></iframe>
+{{< lichess-embed src="https://lichess.org/study/2lC2jkJj/WKgOe2ld" >}}
+[//]: # (FEN: 3r3k/8/8/8/8/4PP2/1PP4P/5K2 w - - 0 1)
 
 -----------
 

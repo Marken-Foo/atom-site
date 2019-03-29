@@ -22,7 +22,7 @@ A basic example is the position after 1. e4 d5. The squares around e4 (e5, d4, d
 
 Play could continue instead 2. d4 Na6 3. Na3 Nb4 4. Bg5 f6 5. Nb5 Bg4 6. f3 Nxc2 7. Nxc7, and here we choose 7...a6!, defending against Bb5+. The other choice 7...b5 mines b4, preventing the active development ...Bb4 since it would lose a pawn to Bxb5. 7...a6 is therefore strategically more flexible, leaving the bishop more development options due to fewer important squares being mined.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/9GFpNdwd/Ej3Madxs#2"></iframe>
+{{< lichess-embed src="https://lichess.org/study/9GFpNdwd/Ej3Madxs#2" >}}
 
 -----------
 
@@ -30,7 +30,7 @@ Another example of this a6/b5 choice is in the line 1. Nf3 f6 2. e3 d5 3. Nd4 Bg
 
 In this particular position there is also a more concrete reason: consider the continuation 6...b5?! 7. Rc1 Rc8 8. Rc7 Rxc7 9. Bd3 g6 10. Kf2! e6 11. Rc1, and now with c5 mined 11...Bc5 12. Bxb5 is drawn. This is an example of mining being used to prevent the opponent from defensively closing a file or diagonal, and also why you don't want your pieces' natural development squares to be mined.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/9GFpNdwd/ZxPVhgbj#12"></iframe>
+{{< lichess-embed src="https://lichess.org/study/9GFpNdwd/ZxPVhgbj#12" >}}
 
 ## Advanced example ##
 Subtler examples of mining can be found in endgames. Instead of a direct attack on a piece that mines a square, the mere threat of a passed pawn does the job.
@@ -41,7 +41,7 @@ Play begins 1. b5. Now if white could push b6 without black being able to recapt
 
 The full line goes: 1. b5 Kb8 2. Kc8 Ka8 3. Kb8 (zz) Ka7 4. b6 Kb7 5. Ka8 Ka7 6. b7 and winning.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/9GFpNdwd/KFX6huX4"></iframe>
+{{< lichess-embed src="https://lichess.org/study/9GFpNdwd/KFX6huX4" >}}
 
 The same visualisation of mined squares applies to a few tricky won pawnitisation endgames (white is a bishop up but black's pawns are all on the opposite colour), where white traps black's king in a similar corridor for zugzwang. The analysis can still be hard, but is often simplified by visualising the mined squares.
 

@@ -26,13 +26,15 @@ What I mean by stable is a __pawn structure where white can't force a passed paw
 ### Stable pawns ###
 When both sides' pawns are connected, the structure is stable. In the below position, both the structures on the left and right sides of the board are stable. The exchange of any pair of pawns will not result in a passed pawn. As such, white cannot force a passed pawn.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/LLAZzQxE"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/LLAZzQxE" >}}
+[//]: # (FEN: 4k3/p5p1/1p5p/8/8/PP3PP1/8/4KB2 w - - 0 1)
 
 The situation gets more interesting if we consider the case where one side has split pawns (2 isolated pawns instead of 2 connected pawns).
 
 With split pawns as shown in the following diagram, stability is possible. Regardless if white has the connected (left) or the split (right) pawns, black can in both cases successfully prevent the creation of passed pawns.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/8IPwtxaM"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/8IPwtxaM" >}}
+[//]: # (FEN: 4k3/p1p3p1/7p/8/8/8/PP3P1P/4KB2 w - - 0 1)
 
 
 ### Unstable pawns ###
@@ -44,7 +46,8 @@ In the example above, black can draw by keeping the pawns where they are. The cr
 
 Let's see why these ideas are useful by looking at an example with unstable pawn structures.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/gAEQIi1Y"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/gAEQIi1Y" >}}
+[//]: # (FEN: 4k3/2p5/7p/p5p1/8/8/PP3P1P/4KB2 w - - 0 1)
 
 The only changes from the previous position are that the pawns that were on a7/g7 are now on a5/g5 - still dark squares. However, white can now force passed pawns on both wings!
 
@@ -53,23 +56,26 @@ Thinking in terms of dangerous/crux pawns again, we see that the crux pawns have
 ### Solution to last week's problem ###
 With all this in mind, we can now examine the problem from last week. White forces a win because the pawns are unstable. I'll slowly explain the solution.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/95GBp5HU"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/95GBp5HU" >}}
+[//]: # (FEN: 1k6/3p3p/2p2pp1/8/8/5P1P/1P1P2P1/2B3K1 w - - 0 1)
 
 Let's try and understand this systematically from the white side. On the queenside, b2 is dangerous and c6 is crux. On the kingside, for any of the white pawns to become passed, g6 must be captured. Assuming that we can capture the g6-pawn, black's f-pawn will need to eventually be advanced to f5 (light square). We want this to then be a vulnerable crux pawn, so we want to take g6 with our h-pawn, then f2 would be "dangerous". We therefore need to stop black playing ...h5 shielding the g6-pawn.
 
 Our first priority is to stop ...h5. Play begins 1. d4 d5 (since the crux on c6 was threatened by 2. d5 c5 3. b3!) 2. Bh6! f5 (it needs to be played sooner or later, better sooner than to let white gain tempo with Bg7 later.)
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/95GBp5HU#4"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/95GBp5HU#4" >}}
+[//]: # (FEN: 1k6/7p/2p3pB/3p1p2/3P4/5P1P/1P4P1/6K1 w - - 0 3)
 
 Let's take stock. The queenside is now stable; on the other hand the kingside is not, since we succesfully restrained the h-pawn. The natural plan - the only plan - is to now push h4-h5 sacrificing the bishop but creating passed pawns. Some calculation will be needed to ensure this pawn endgame is winning. Fortunately, white has all the time needed to prepare this push with b4, f4, g4, h4 and Kh2 before deciding to push. Let's say this is done.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/95GBp5HU#15"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/95GBp5HU#15" >}}
+[//]: # (FEN: 4k3/7p/2p3pB/3p1p1P/1P1P1PP1/8/7K/8 b - - 0 8)
 
-8. h5! is the culmination of white's plan. Before playing it, we should calculate the mainline - 8. h5 gxh5 9. gxf5 gives up a bishop for a passed pawn, and with white's preparation the race is won - white blockades the black pawn further up the board than black does white's pawn. One thing I'd like to highlight is the move b4: it avoids black playing ...c5 and ...cxd4 after the bishop sac, which would create more passed pawns - complications are not what white wants.
+The push 8. h5! is the culmination of white's plan. Before playing it, we should calculate the mainline - 8. h5 gxh5 9. gxf5 gives up a bishop for a passed pawn, and with white's preparation the race is won - white blockades the black pawn further up the board than black does white's pawn. One thing I'd like to highlight is the move b4: it avoids black playing ...c5 and ...cxd4 after the bishop sac, which would create more passed pawns - complications are not what white wants.
 
 That was the intended solution when I composed the position. However, as composers amateur and experienced alike are wont to find, unintended solutions like rearing their heads from time to time. I found this alternative solution (in problemist parlance, a cook) while drafting the study chapters for this week. If you followed the explanation of the above solution, the second one is in much the same vein so I'll just give the idea. (The full line is given in the study.)
 
-1. d3 h5 2. Bf4+ Kc8 3. Bd6! (the crux pawn on c6 is permanently exposed and can't be shielded by ...d5) and then preparing the push/sacrifice d4-d5, just as h4-h5 was winning in the intended solution. Again, we see the same pattern of preventing black from shielding the vulnerable crux pawn by using the bishop as a blockader.
+Start with 1. d3 h5 2. Bf4+ Kc8 3. Bd6! (the crux pawn on c6 is permanently exposed and can't be shielded by ...d5) and then prepare the push/sacrifice d4-d5, just as h4-h5 was winning in the intended solution. Again, we see the same pattern of preventing black from shielding the vulnerable crux pawn by using the bishop as a blockader.
 
 
 ## Pawnitisation breaking by zugzwang ##
@@ -82,11 +88,13 @@ The key to such positions is always a lack of space for the black king. The blac
 
 For our first example, let's take a position where visually the black king is cramped. White wants to force the black king to run of moves so that ...b6 has to be played. Here, the white bishop can do the job. Of note is that 1. Bg5 guards d8, preventing the black king from escaping to the rest of the board for a draw - it's impossible to force a zugzwang in open space.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/bocA06Bo"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/bocA06Bo" >}}
+[//]: # (FEN: 2k5/1p1p4/3P4/1P6/8/8/8/2B1K3 w - - 0 1)
 
 Next up, a position where the white king is in the starring role. This next example contains two important points I want to bring up; have a look at the position first.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/7SQPWGGJ"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/7SQPWGGJ" >}}
+[//]: # (FEN: 1k6/p3K3/8/1P6/8/8/8/5B2 w - - 0 1)
 
 Firstly, we need to be able to recognise that the black king is trapped in the corner, and can't escape by c7, for instance.
 
@@ -99,7 +107,8 @@ The second point: the bishop alone cannot force zugzwang here. If we try 1. Bh3 
 
 Finally, our third example is a touch more complicated, involving both the bishop and the king. I'll give a quick rundown of the solution after the diagram.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/Q9Pzmmem"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/Q9Pzmmem" >}}
+[//]: # (FEN: 3k4/2p1p3/8/1P3P2/3K4/3B4/8/8 w - - 0 1)
 
 - The threats of b6 and f6 mine almost everything - the black king is restricted to the 8th rank, the d-file and the h-file.
 - Black moves towards f8/e8, where white's bishop alone cannot force zugzwang. (Black needs the extra space on the kingside - it doesn't work on the queenside.)
@@ -115,13 +124,14 @@ There's already a fair amount of material up to this point. Nevertheless, I stil
 
 The first problem you may have seen before - I've posted it around the forums and on [Chess Variants Training](https://chessvariants.training/) before. White to play and win - be careful that the black king doesn't escape!
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/lwU7iPW3"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/lwU7iPW3" >}}
+[//]: # (FEN: 6kK/4p1p1/6P1/7B/3P4/8/8/8 w - - 0 1)
 
 
 The second is a new original composition. Again, white to play and win. At first glance, it might not even look like the black king is short of space, but strange things can happen. Be careful though, to win white needs to play accurately for the first few moves.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/Q9Pzmmem"></iframe>
-
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/KskCuNLl" >}}
+[//]: # (FEN: k7/3p4/5p2/2B5/4K3/5P2/2P5/8 w - - 0 1)
 
 ## Conclusion ##
 Pawnitisation can be quite a tricky concept in all its detail, but knowing just the basic idea already goes a long way to playing better in the endgame and middlegame. It's especially useful to know if you're a piece down and are trying to save a draw.

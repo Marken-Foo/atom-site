@@ -22,7 +22,8 @@ A queen is the only piece that can checkmate alone. The "technique" is basically
 
 This endgame arises as a simplification from many other won endgames, usually by sacrificing a piece for a pawn to leave your own passed pawn, promoting it and cutting the enemy king off before it gets adjacent to yours.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/k4CE3PmD/lOVZbzNu"></iframe>
+{{< lichess-embed src="https://lichess.org/study/k4CE3PmD/lOVZbzNu" >}}
+[//]: # (FEN: 7Q/8/8/8/4k3/8/8/4K3 w - - 0 1)
 
 ## KQQ v K ##
 Two queens can force mate, even if the kings are connected. The technique is to force the kings to separate by zugzwang. This pattern in the corner is good to remember.
@@ -31,14 +32,16 @@ This endgame can almost always be forced if you're up by at least two pawns, by 
 
 Notice also that the same pattern works with queen + another piece, or with 2 rooks.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/k4CE3PmD/N78A9obg"></iframe>
+{{< lichess-embed src="https://lichess.org/study/k4CE3PmD/N78A9obg" >}}
+[//]: # (FEN: 6QQ/8/8/8/3Kk3/8/8/8 w - - 0 1)
 
 ## KQP v KP ##
 With a pair of blocked pawns on the board, an extra queen will win even if the kings are connected. The pawns give an extra winning possibility of exploding the enemy pawn while its king is next to it. By setting up appropriately and walking the king next to the enemy pawn, you can force the enemy king to separate or be exploded.
 
 Because this threat only exists with an enemy pawn on the board, whenever you're up material, try to make sure at least one enemy pawn will be left on the board after all the exchanges and your promotion. You want to leave this winning endgame and not a KQ v K connected king draw.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/k4CE3PmD/dP0kUghz"></iframe>
+{{< lichess-embed src="https://lichess.org/study/k4CE3PmD/dP0kUghz" >}}
+[//]: # (FEN: 8/8/8/3p4/3P4/7Q/7k/7K w - - 0 1)
 
 This technique of winning a queen up is absolutely fundamental. As you improve in atomic, much fewer games will be decided in the opening. Practicing the technique will bring you more wins and give you confidence to play middlegames when you're up material, safe in the knowledge that you can win the resulting endgame.
 

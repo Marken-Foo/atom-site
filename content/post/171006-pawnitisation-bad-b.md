@@ -30,17 +30,20 @@ To simplify the presentation, let's agree that white is the side up a bishop, an
 ## Basic pawnitisation ##
 The basic idea of pawnitisation is to render white's extra bishop useless by putting all your pawns on the opposite colour. The situation will then be essentially a drawn equal pawn endgame. (Hopefully.) Black will just oscillate the king, while the white bishop can literally do nothing useful. Let's look at a basic example:
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/jJqZwOa7"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/jJqZwOa7" >}}
+[//]: # (FEN: 4k3/8/B7/8/3p1p2/3P4/6P1/K7 w - - 0 1)
 
 Note also that if white could magically trade his bishop for the f-pawn somehow, the resulting endgame is a simple win a pawn up (promote to a queen and win using KQP v KP technique.) This is why it's important to keep the pawns safe from the bishop.
 
 Strong players are usually aware of pawnitisation. For instance, in fast-tsunami vs Gannet, 31...Rxd2 was played to eliminate white's bishop pair, and both players immediately agreed to a draw.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/z8fOFlpY#62"></iframe>
+{{< lichess-embed src="https://lichess.org/z8fOFlpY#62" >}}
+[//]: # (FEN: 8/p4B1k/1p1p4/4p3/3PP3/8/PP5K/8 w - - 0 32)
 
 In pashpash-moustruito, we see after 22. Rxf8 f5!, black has more or less pawnitised white. 24...d5! safely fixes the pawn structure for good, and the players agreed to a draw soon after.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/embed/vATgM1r4#44"></iframe>
+{{< lichess-embed src="https://lichess.org/vATgM1r4#44" >}}
+[//]: # (FEN: 8/1p1p3k/4p1p1/5p1p/pP6/4P3/PB1P1PPP/6K1 w - - 0 23)
 
 
 ## Passed pawns don't draw ##
@@ -49,13 +52,15 @@ For black, it is vital that there are no passed pawns or pawn majorities. If whi
 Since both sides have equal numbers of pawns, both sides will get passed pawns. Each passed pawn ties down a piece to stop it. However, white has two pieces (king and bishop) while black has only one (king). After the passed pawns are blocked, white will still have a free piece and infinite waiting moves, while black will eventually be forced to move the king and allow white to promote.
 Perhaps the following example is clearer. Black's pawns are all on the opposite colour from white's bishop, yet white wins because of the queenside pawn majority.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/F4FkvVyw"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/F4FkvVyw" >}}
+[//]: # (FEN: 4k3/B7/p1p5/7p/6p1/P1P3P1/1P6/2K5 w - - 0 1)
 
 The next example is taken from an actual game, bad3crazy-Illion. (*Note: in this example it's black who has the bishop.)
 
 Instead of a pawn majority, the key feature is the square of pawns d4/e4/d5/e5 in the centre of the board which guarantees black a passed pawn (with the help of the bishop.) This means that black can safely play ...Nxc2 and play for a win without fear of pawnitisation.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/FK5xfvmk"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/FK5xfvmk" >}}
+[//]: # (FEN: r3k3/8/p4p1p/1p1pp3/1n1PPP2/P5P1/1PP1b3/RNB1K3 b Qq - 0 15)
 
 Notice the technique used to win the position with passed pawns - use the extra piece for infinite tempi, promote the pawn, then win with KQP v KP or KQ v KP technique.
 
@@ -67,11 +72,13 @@ We'll now consider two common themes in the endgame that can make or break the d
 
 _Fixing pawns_ is as simple as it sounds. If white can force a black pawn to remain on the bishop's colour forever, there's no hope for pawnitisation. If black can get all the pawns off the bishop's colour, there's a chance for a draw. Sometimes though, the order in which the pawns are pushed is crucial.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/z4dXlOW9"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/z4dXlOW9" >}}
+[//]: # (FEN: 4k3/8/1p1p4/8/8/P2P4/8/2B1K3 w - - 0 1)
 
 _Skewering pawns_ is also easy. White guarantees the exchange of the bishop for a pawn by attacking two pawns at once by a skewer (or by pinning a pawn to the enemy king.) The important thing to remember is that as white, you want to exchange the bishop off before it becomes useless.
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/37ZbsXf9"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/37ZbsXf9" >}}
+[//]: # (FEN: 7k/5p2/4p3/p7/P7/4P1P1/6B1/6K1 w - - 0 1)
 
 -----------
 
@@ -82,6 +89,7 @@ Those are the basics of pawnitisation. In the next post, we'll look at slightly 
 
 And lastly, for readers who haven't felt sufficiently challenged by the material in the post, I've prepared the following position, which features ideas not presented above. White to play; does black hold, or can white somehow win?
 
-<iframe width=800 height=495 frameborder=0 src="https://lichess.org/study/embed/iS3Dp19A/95GBp5HU"></iframe>
+{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/95GBp5HU" >}}
+[//]: # (FEN: 1k6/3p3p/2p2pp1/8/8/5P1P/1P1P2P1/2B3K1 w - - 0 1)
 
 Until next time!
