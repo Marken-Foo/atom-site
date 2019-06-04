@@ -1,16 +1,12 @@
-<!--
-  Shortcode to do a lichess iframe embed off of a regular lichess URL
-  Assumes input is of form "https://lichess.org[/study]/r4nd0ml3773rs"
-  Need to figure out how to sandbox enough
-  ALSO CHANGES IN PROGRESS FOR JS IFRAME-ANCHOR-BACK FIXING
--->{{ $url := urls.Parse (.Get "src") }}
+<!--Shortcode to do a lichess iframe embed off of a regular lichess URL; assumes input is of form "https://lichess.org[/study]/r4nd0ml3773rs"-->
+{{ $url := urls.Parse (.Get "src") }}
 {{ if in $url.Path "study" }}
-    {{ $.Scratch.Set "out" (printf "%s://%s/study/embed/%s" $url.Scheme $url.Host (slicestr $url.Path 7)) }}
+	{{ $.Scratch.Set "out" (printf "%s://%s/study/embed/%s" $url.Scheme $url.Host (slicestr $url.Path 7)) }}
 {{ else }}
-    {{ $.Scratch.Set "out" (printf "%s://%s/embed/%s" $url.Scheme $url.Host (slicestr $url.Path 1)) }}
+	{{ $.Scratch.Set "out" (printf "%s://%s/embed/%s" $url.Scheme $url.Host (slicestr $url.Path 1)) }}
 {{ end }}
 {{ if (len $url.Fragment | ne 0) }}
-    {{ $.Scratch.Add "out" (printf "#%s" $url.Fragment) }}
+	{{ $.Scratch.Add "out" (printf "#%s" $url.Fragment) }}
 {{ end }}
 <div class="container">
 <iframe src="{{ $.Scratch.Get "out" }}" class="lichess-board" data-url="{{ $.Scratch.Get "out" }}">

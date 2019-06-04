@@ -12,4 +12,4 @@ title = "Home"
 
 Welcome to Illion's atomic site!
 
-With thanks to GitHub, Hugo, Netlify, Hugo XMin, and those physics profs who taught me how to deal with Git!
+With thanks to GitHub, Hugo, Netlify, and those physics profs who taught me how to deal with Git!

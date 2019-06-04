@@ -21,6 +21,7 @@ Endgames are probably the most important thing to learn, whether you're a new pl
 - [KQ v KP](https://lichess.org/study/nPsVcyo0) - Lone queen versus lone pawn. Also an important endgame, and the trickiest basic endgame; even top ten players have messed this up (queen versus rook-pawn)! This endgame is what typically results after even-material pawn races. Sometimes, a draw may even be stolen by the side with the pawn.
 - [KRP v KP](https://lichess.org/study/xvHuOCBq) - How to win when up a rook with a pair of blocked pawns. A rarer endgame but certain positions are much trickier than with the queen.
 - [Pawnitisation](https://lichess.org/study/iS3Dp19A) - The idea of "pawnitisation". When only pawns are left but one side is up a bishop, the bishop might find itself useless if the opponent's pawns are all on the opposite-coloured squares. There can be very tricky ideas with pawn structure and zugzwang in these endings. Losses turn into draws and draws into wins if you know these ideas.
+- [Rule of the rectangle](https://lichess.org/study/7SpmVBSz) - A proposed method of counting out KP v K (and some other pure pawn) endgames more easily, like the rule of the square in regular chess. The ideas here are helpful for analysing certain more complex endgames.
 
 
 ## Game analysis ##
@@ -29,13 +30,16 @@ Analysing games is a good way to improve your chess (also your atomic chess). Fa
 
 - [My old games](https://lichess.org/study/4yVSWBkW) - A critical look back at some of my older games, back when I had just started playing atomic chess.
 
-I have also analysed and annotated over 150 games played in the 2017 Atomic World Championship, which was organised by tipau on lichess.org in November-December 2017. This is analysis with human comments on the ideas and features of the positions (and of course certain tactical lines), not just engine evaluations.
+I have also analysed and annotated over 200 of the games played in the 2017 Atomic World Championship, which was organised by tipau on lichess.org in November-December 2017. This is analysis with human comments on the ideas and features of the positions (and of course certain tactical lines), not just engine evaluations. There should be something for all skill levels in these games.
 
 - [AWC 2017 Round 1 upper](https://lichess.org/study/DkOwAm57)
 - [AWC 2017 Round 1 lower](https://lichess.org/study/xb6BuJqH)
 - [AWC 2017 Round 2 upper](https://lichess.org/study/5FmSwRNw)
 - [AWC 2017 Round 2 lower](https://lichess.org/study/naiwBUs5)
-- [AWC 2017 Round 3](https://lichess.org/study/1Ca8uzR8) (some games analysed)
+- [AWC 2017 Round 3](https://lichess.org/study/1Ca8uzR8)
+- [AWC 2017 Round 4 (quarterfinals)(some games analysed)](https://lichess.org/study/7I3kxX7I)
+
+I've also downloaded the variant games from the FICS game database, and separated all the atomic games from 2009 to 2018 ([PGNs compressed in .7z format, 11.7 MB](/dbs/FICS_atomic_games.7z)). These are provided for the curious player to appreciate older atomic games.
 
 
 ## Openings ##
