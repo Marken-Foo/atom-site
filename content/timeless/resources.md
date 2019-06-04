@@ -1,6 +1,6 @@
 +++
 title = "Resources"
-date = 2019-03-24T22:14:58+08:00
+date = 2019-06-05T01:25:33+08:00
 description = "Atomic chess resources by Illion"
 
 slug = "resources"
