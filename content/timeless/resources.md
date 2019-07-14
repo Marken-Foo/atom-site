@@ -14,14 +14,21 @@ Over my time playing atomic I've created quite a number of resources for my own 
 
 ## Endgames ##
 
-Endgames are probably the most important thing to learn, whether you're a new player or an experienced one. The basic techniques are very different from regular chess endgames, and fully worth the investment to master them.
+Endgames are probably the most important thing to learn, whether you're a new player or an experienced one. The basic techniques are very different from regular chess endgames, and fully worth the investment to master them. The first three studies are perhaps the most important of all for practical play.
 
 - [Lone king endgames](https://lichess.org/study/BB4RW1ts) - How to win versus a lone king. Covers KQ, KQQ, KQB, KRR, KRB and KRN versus lone K.
 - [KQP v KP](https://lichess.org/study/2DRvcpIZ) - How to win when up a queen. The single most important "how to win a won game" technique to master. This endgame is why a material difference of a single pawn is winning in atomic.
 - [KQ v KP](https://lichess.org/study/nPsVcyo0) - Lone queen versus lone pawn. Also an important endgame, and the trickiest basic endgame; even top ten players have messed this up (queen versus rook-pawn)! This endgame is what typically results after even-material pawn races. Sometimes, a draw may even be stolen by the side with the pawn.
-- [KRP v KP](https://lichess.org/study/xvHuOCBq) - How to win when up a rook with a pair of blocked pawns. A rarer endgame but certain positions are much trickier than with the queen.
+
+The rest of the endgame studies may not be as overridingly important as the first three above, but knowing these will give you vital ammunition to convert to winning endgames, and will indirectly improve your middlegame play as well when you consider how to convert to the appropriate endgames.
+
 - [Pawnitisation](https://lichess.org/study/iS3Dp19A) - The idea of "pawnitisation". When only pawns are left but one side is up a bishop, the bishop might find itself useless if the opponent's pawns are all on the opposite-coloured squares. There can be very tricky ideas with pawn structure and zugzwang in these endings. Losses turn into draws and draws into wins if you know these ideas.
 - [Rule of the rectangle](https://lichess.org/study/7SpmVBSz) - A proposed method of counting out KP v K (and some other pure pawn) endgames more easily, like the rule of the square in regular chess. The ideas here are helpful for analysing certain more complex endgames.
+- [KPP v KP: backwards pawn](https://lichess.org/study/Iv9L9LTR) - Two pawn versus one is winning if one side can promote, but if the one pawn hold back two, it may be drawn as KQ v K with connected kings is only a draw. Nevertheless, there are some tricky wins possible, and always the hope that the opponent defends incorrectly (which is surprisingly easy to do). Learn the proper technique to defend once and for all, and never worry about dropping unnecessary half-points again.
+- [KPP v KP: exercises](https://lichess.org/study/K75Qiesx) - A set of 31 exercises to accompany the above KPP v KP study. Good for training calculation and reinforcing what the other study teaches.
+- [KRP v KP](https://lichess.org/study/xvHuOCBq) - How to win when up a rook with a pair of blocked pawns. A rarer endgame but certain positions are much trickier than with the queen.
+- [KR v KP](https://lichess.org/study/MYV7n3Nf) - A hard endgame, but perhaps more common than KRP v KP. White has a surprising number of winning positions here, although the methods to win them may not be obvious to find over the board.
+- [K + 2 pieces v KP](https://lichess.org/study/qpSW4QBS) - A set of fundamental endgames where the winning methods may not be as easy to find over the board as they seem. Knowing how to win these will expand your range of "easily winning" endgame conversions.
 
 
 ## Game analysis ##
