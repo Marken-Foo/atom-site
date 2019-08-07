@@ -1,7 +1,7 @@
 +++
 title = "Sente and gote"
-date = 2019-08-07T00:44:07+08:00
-lastmod = 2019-08-08T00:44:07+08:00
+date = 2019-08-07T17:19:08+08:00
+lastmod = 2019-08-08T17:19:08+08:00
 description = ""
 
 slug = "sente-and-gote"
@@ -10,7 +10,7 @@ tags = ["terminology"]
 type = "post"
 series = []
 
-draft = true
+draft = false
 +++
 
 There is much to learn from the study of chess and chess-like games in Asia. Two useful terms we can borrow from their literature are *sente* and *gote*, which relate to the concept of the initiative.
