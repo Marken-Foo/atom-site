@@ -8,14 +8,17 @@
 
 <div class="section-header-box">
 <h1><span class="title">{{ .Title }}</span></h1>
-{{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
-{{ if (gt .Params.date 0) }}
+{{ with .Page.Params.author }}<p class="author">Written by {{ . }}</h2><br>{{ end }}
+{{ if (gt .Page.Params.date 0) }}
   Posted {{ .PublishDate.Format "2006-01-02 15:04" }}
 {{ end }}
 </div>
 
 <main>
   {{ .Content }}
+  {{ if (gt .Lastmod 0) }}
+    <em>Last updated: {{ .Lastmod.Format "2006-01-02 15:04" }}</em>
+  {{ end }}
 </main>
 
 {{ partial "footer.html" . }}

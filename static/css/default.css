@@ -1,6 +1,7 @@
 body {
 	font-family: serif;
 	font-size: 120%;
+	line-height: 130%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,6 +37,10 @@ main {
 	margin: 0 auto;
 }
 
+figcaption {
+	text-align: center;
+}
+
 /* To abuse triple backtick <pre> as chess notation */
 pre {
 	max-width: 700px;
@@ -45,9 +50,9 @@ pre {
 /* To handle embedded lichess iframes*/
 iframe[src*="lichess"] {
 	border: none;
-	max-width: 80%;
-	width: 600px;
-	height: 371px;
+	max-width: 90%;
+	width: 800px;
+	height: 495px;
 }
 
 /* navbar */
