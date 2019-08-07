@@ -1,7 +1,7 @@
 +++
 title = "Sente and gote"
 date = 2019-08-07T17:19:08+08:00
-lastmod = 2019-08-08T17:19:08+08:00
+lastmod = 2019-08-07T17:19:08+08:00
 description = ""
 
 slug = "sente-and-gote"
@@ -15,7 +15,7 @@ draft = false
 
 There is much to learn from the study of chess and chess-like games in Asia. Two useful terms we can borrow from their literature are *sente* and *gote*, which relate to the concept of the initiative.
 
-Sente (pronounced *sen-teh*, 先手) and gote (*go-teh*, 後手) are frequently encountered terms when studying the Japanese games of go and shogi. I find that they are clearer and more focused terms than "the initiative" that we have in chess. Rather than read a dry essay on the nature of time on the chessboard, it's probably easier to understand by seeing a quick explanation of the terms followed by many examples, so let's get to it.
+Sente (pronounced *sen-teh*, 先手) and gote (*go-teh*, 後手) are terms frequently encountered when studying the Japanese games of go and shogi. I find that they are clearer and more focused terms than "the initiative" that we have in chess. Rather than read a dry essay on the nature of time on the chessboard, it's probably easier to understand by seeing a quick explanation of the terms followed by many examples, so let's get to it.
 
 
 ## What is sente and gote? ##
