@@ -30,6 +30,11 @@ img.logo {
 	text-align: center;
 }
 
+p {
+	margin-top: 0.6em;
+	margin-bottom: 0.4em;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -39,6 +44,15 @@ main {
 
 figcaption {
 	text-align: center;
+}
+
+/* Notation class (usually span elements) for standalone chess notation snippets */
+.standalone-notation {
+	font-weight: bold;
+}
+
+.svg-diagram {
+	width: 50%;
 }
 
 /* To abuse triple backtick <pre> as chess notation */

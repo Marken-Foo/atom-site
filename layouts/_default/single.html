@@ -16,7 +16,7 @@
 
 <main>
   {{ .Content }}
-  {{ if (gt .Lastmod 0) }}
+  {{ if and (gt .Lastmod 0) (ne .PublishDate .Lastmod ) }}
     <em>Last updated: {{ .Lastmod.Format "2006-01-02 15:04" }}</em>
   {{ end }}
 </main>

@@ -6,9 +6,9 @@ description = ""
 
 slug = "sente-and-gote"
 categories = ["blog"]
-tags = ["terminology"]
-type = "post"
 series = []
+tags = ["terminology", "general-advice"]
+type = "post"
 
 draft = false
 +++

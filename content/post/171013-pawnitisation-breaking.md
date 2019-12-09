@@ -14,7 +14,7 @@ Last week I discussed the fundamentals of pawnitisation - make your opponent's b
 
 But of course, chess is rarely that simple. This week we'll be looking at the exceptions - where white can win even when there are no pawn majorities and no targets for the bishop. I'll be going through the two types of exceptions I'm aware of: pawn structure stability, and zugzwang.
 
-I highly recommend reading [last week's post]({{< relref "post/171006-pawnitisation-bad-b" >}}) to understand the fundamentals if you don't already. Also, I'll be going through the solution to last week's problem at the end of the first part on pawn stability, so skip ahead if you're curious (but come back to read the section please!).
+I highly recommend reading [last week's post]({{< relref "171006-pawnitisation-bad-b" >}}) to understand the fundamentals if you don't already. Also, I'll be going through the solution to last week's problem at the end of the first part on pawn stability, so skip ahead if you're curious (but come back to read the section please!).
 
 
 ## Pawn stability ##
