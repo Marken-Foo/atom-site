@@ -47,12 +47,20 @@ figcaption {
 }
 
 /* Notation class (usually span elements) for standalone chess notation snippets */
-.standalone-notation {
+.notation {
 	font-weight: bold;
 }
 
-.svg-diagram {
-	width: 50%;
+.fen-diag-cnv-wrapper {
+	max-width: 90%;
+	height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fen-diag {
+	align-items: center;
 }
 
 /* To abuse triple backtick <pre> as chess notation */

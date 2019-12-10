@@ -12,8 +12,5 @@ draft = true
 
 Hugo shortcode test (there should be something below this line:)
 
-{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/hL4PEqyd" >}}
-
-There should be something below this line too:
-
-{{< lichess-embed src="https://lichess.org/pBegZCdB#51" >}}
+{{< fen-diag fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" flip="true">}}
+{{< fen-diag fen="6kK/4p1p1/6P1/7B/3P4/8/8/8 w - - 0 1">}}
