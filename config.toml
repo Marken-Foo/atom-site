@@ -5,7 +5,7 @@ copyright = "Illion 2017-2019"
 
 [params]
     author = "Illion"
-	footer = "&copy; [Illion](https://lichess.org/@/Illion) 2017-2019 | Theme by Marken Foo"
+	footer = "&copy; [Illion](https://lichess.org/@/Illion) 2017-2019 | Theme by [Marken Foo](https://github.com/Marken-Foo/atom-site)"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"

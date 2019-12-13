@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
 {{ partial "head.html" . }}
-
 <body>
 {{ partial "header.html" . }}
 
 {{ .Content }}
 
-<ul>
-  {{ range (where .Data.Pages "Section" "!=" "") }}
-  <li>
-    <span class="date">{{ .PublishDate.Format "2006-01-02" }}</span>
-    <a href="{{ .URL }}">{{ .Title }}</a>
-	{{ if (ne .PublishDate .Lastmod)}}
-	  <em>(Updated on: {{ .Lastmod.Format "2006-01-02 15:04" }})</em>
-	{{ end }}
-  </li>
-  {{ end }}
-</ul>
+<main>
+  <ul>
+    {{ range (where .Data.Pages "Section" "!=" "") }}
+    <li>
+      <span class="date">{{ .PublishDate.Format "2006-01-02" }}</span>
+      <a href="{{ .URL }}">{{ .Title }}</a>
+	  {{ if (ne .PublishDate .Lastmod)}}
+	    <em>(Updated on: {{ .Lastmod.Format "2006-01-02 15:04" }})</em>
+	  {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</main>
 
 {{ partial "footer.html" . }}
 </body>
-
 </html>

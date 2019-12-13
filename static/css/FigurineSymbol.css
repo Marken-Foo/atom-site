@@ -1,0 +1,16 @@
+/* Imports the FigurineSymbolT1 regular and bold typefaces */
+@font-face {
+	font-family: "FigurineSymbol";
+	src: url('/../fonts/FigurineSymbolT1.woff2') format('woff2'),
+         url('/../fonts/FigurineSymbolT1.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "FigurineSymbol";
+	src: url('/../fonts/FigurineSymbolT1Bold.woff2') format('woff2'),
+         url('/../fonts/FigurineSymbolT1Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: bold;
+}

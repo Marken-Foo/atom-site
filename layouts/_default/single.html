@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
 {{ partial "head.html" . }}
-
 <body>
 {{ partial "header.html" . }}
 
 <div class="section-header-box">
 <h1><span class="title">{{ .Title }}</span></h1>
-{{ with .Page.Params.author }}<p class="author">Written by {{ . }}</h2><br>{{ end }}
+{{ with .Page.Params.subtitle }}<p class="subtitle">{{ . }}</p><br> {{ end }}
+{{ with .Page.Params.author }}<p class="author">Written by {{ . }}</p><br>{{ end }}
 {{ if (gt .Page.Params.date 0) }}
   Posted {{ .PublishDate.Format "2006-01-02 15:04" }}
 {{ end }}
@@ -23,5 +22,4 @@
 
 {{ partial "footer.html" . }}
 </body>
-
 </html>

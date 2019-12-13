@@ -1,9 +1,7 @@
 <!--Inserts a figure intended for a chess diagram.
 The div will contain the diagram, which will be drawn by other means (JS).-->
 <figure class="fen-diag">
-  <div class="fen-diag-cnv-wrapper" data-fen="{{.Get "fen"}}"
-  {{ if ((.Get "flip") | ne "") }} data-flip {{ end }} >
-  </div>
+  <div class="fen-diag-cnv-wrapper" data-fen="{{.Get "fen"}}"{{ if ((.Get "flip") | ne "") }} data-flip{{ end }}{{ if ((.Get "diag-type") | ne "") }} data-diag-type="{{.Get "diag-type"}}"{{ end }}></div>
   <figcaption>
     {{ if ((.Get "caption") | ne "") }}{{.Get "caption"}}<br>{{ end }}
     (FEN: {{.Get "fen"}})
