@@ -26,7 +26,7 @@ To simplify the presentation, let's agree that white is the side up a bishop, an
 
 - All black's pawns are on squares of the opposite colour from the bishop
 - White has no passed pawns, nor can white forcibly create a passed pawn
-- No strange exceptions (notably zugzwang; we'll discuss this in [a later post]({{< relref "171013-pawnitisation-breaking.md" >}})
+- No strange exceptions (notably zugzwang; we'll discuss this in [a later post]({{< relref "171013-pawnitisation-breaking.md" >}}))
 
 
 ## Basic pawnitisation ##
@@ -93,7 +93,6 @@ Those are the basics of pawnitisation. In the next post, we'll look at slightly 
 
 And lastly, for readers who haven't felt sufficiently challenged by the material in the post, I've prepared the following position, which features ideas not presented above. White to play; does black hold, or can white somehow win?
 
-{{< lichess-embed src="https://lichess.org/study/iS3Dp19A/95GBp5HU" >}}
-[//]: # (FEN: 1k6/3p3p/2p2pp1/8/8/5P1P/1P1P2P1/2B3K1 w - - 0 1)
+{{< fen-diag caption="White to move. Can white win?" fen="1k6/3p3p/2p2pp1/8/8/5P1P/1P1P2P1/2B3K1 w - - 0 1">}}
 
 Until next time!
