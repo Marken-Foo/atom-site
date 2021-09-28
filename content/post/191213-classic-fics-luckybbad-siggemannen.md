@@ -4,7 +4,7 @@ subtitle = "siggemannen - luckybbad, 2008"
 date = 2019-12-13T21:24:48+08:00
 
 lastmod = 2019-12-13T21:24:48+08:00
-description = ""
+description = "Learn logical atomic chess from analysis of a 2008 FICS blitz game by 2005 world champion siggemannen."
 
 slug = "classic-fics-subtle-space"
 categories = ["blog"]

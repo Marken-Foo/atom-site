@@ -1,7 +1,7 @@
 +++
 title = "The block and the lune - pawn play made easy"
 date = 2017-08-26T21:58:40+02:00
-description = ""
+description = "Handle pawn structure in atomic chess better by learning to recognise two basic patterns: the block and the lune."
 
 slug = "block-lune"
 categories = ["blog"]

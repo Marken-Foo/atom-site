@@ -1,7 +1,7 @@
 +++
 title = "New to nuke: Opening knight tactics"
 date = 2017-08-22T21:39:16+02:00
-description = ""
+description = "Learn to use and defend against the most common atomic chess knight tactics in the opening."
 
 slug = "n2n-opening-n-tactics"
 categories = ["blog"]

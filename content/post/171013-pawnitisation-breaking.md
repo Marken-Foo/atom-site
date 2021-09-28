@@ -1,7 +1,7 @@
 +++
 title = "Pawnitisation breaking"
 date = 2017-10-13T22:11:28+02:00
-description = ""
+description = "Study-like methods of breaking a pawnitisation defence in atomic chess, from the practical to the fiendish."
 
 slug = "pawnitisation-breaking"
 categories = ["blog"]

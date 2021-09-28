@@ -1,7 +1,7 @@
 +++
 title = "New to nuke: First steps"
 date = 2017-08-21T01:57:14+02:00
-description = ""
+description = "Take your first steps in atomic chess with the New to Nuke series."
 
 slug = "n2n-first-steps"
 categories = ["blog"]

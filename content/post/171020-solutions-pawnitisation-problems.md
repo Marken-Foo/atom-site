@@ -1,7 +1,7 @@
 +++
 title = "Solutions to last week's problems"
 date = 2017-10-20T22:03:07+02:00
-description = ""
+description = "Did you solve the problems in the previous post? Tricky atomic chess endgame studies featuring pawnitsation."
 
 slug = "solutions-pawnitisation-problems"
 categories = ["blog"]

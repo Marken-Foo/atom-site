@@ -2,7 +2,7 @@
 title = "Pawnitisation - the bad bishop"
 date = 2017-10-06T21:59:27+02:00
 lastmod = 2019-08-08T12:30:45+08:00
-description = ""
+description = "The basics of pawnitisation, a drawing technique in atomic chess endgames while down a whole bishop."
 
 slug = "pawnitisation-bad-b"
 categories = ["blog"]

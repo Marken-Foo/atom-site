@@ -1,7 +1,7 @@
 +++
 title = "A knight & bishop mating invasion"
 date = 2017-09-22T22:33:46+02:00
-description = ""
+description = "A surprisingly common coordinated attack with knight and bishop in atomic chess."
 
 slug = "n-b-mating-invasion"
 categories = ["blog"]

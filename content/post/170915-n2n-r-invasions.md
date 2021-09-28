@@ -1,7 +1,7 @@
 +++
 title = "New to nuke: Rook invasions"
 date = 2017-09-15T22:21:47+02:00
-description = ""
+description = "The simple 2x2 rule will let you quickly judge common rook invasions in atomic chess."
 
 slug = "n2n-r-invasions"
 categories = ["blog"]

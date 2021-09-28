@@ -1,7 +1,7 @@
 +++
 title = "One player's thoughts on the opening"
 date = 2017-09-29T21:22:24+02:00
-description = ""
+description = "A strong player's take on the importance (or not) of opening theory in atomic chess, one of the most theory-heavy chess variants."
 
 slug = "one-player-thoughts-opening"
 categories = ["blog"]

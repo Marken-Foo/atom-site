@@ -1,7 +1,7 @@
 +++
 title = "Links"
 date = 2019-06-05T01:25:33+08:00
-description = "Links to all kinds of useful sites"
+description = "Useful sites and resources to learn and play atomic chess."
 
 slug = "links"
 categories = ["Reference"]

@@ -2,7 +2,7 @@
 title = "Sente and gote"
 date = 2019-08-07T17:19:08+08:00
 lastmod = 2019-08-07T17:19:08+08:00
-description = ""
+description = "Extend your understanding of the initiative in atomic chess with the eastern chess concepts of sente and gote."
 
 slug = "sente-and-gote"
 categories = ["blog"]

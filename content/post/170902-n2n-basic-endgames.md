@@ -1,7 +1,7 @@
 +++
 title = "New to nuke: Basic endgames"
 date = 2017-09-02T01:11:43+02:00
-description = ""
+description = "You can win over 90% of atomic chess games when you're up material by learning these simple endgames."
 
 slug = "n2n-basic-endgames"
 categories = ["blog"]

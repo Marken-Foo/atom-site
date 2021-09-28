@@ -1,7 +1,7 @@
 +++
 title = "New to nuke: Opening queen tactics"
 date = 2017-08-25T20:16:52+02:00
-description = ""
+description = "Learn to use and defend against the most common atomic chess queen tactics in the opening."
 
 slug = "n2n-opening-q-tactics"
 categories = ["blog"]

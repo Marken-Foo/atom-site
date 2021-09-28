@@ -1,7 +1,7 @@
 +++
 title = "Mined squares - seeing danger"
 date = 2017-09-08T22:33:42+02:00
-description = ""
+description = "Atomic chess captures destroy pieces on adjacent squares. Develop the habit to check for danger on these mined squares."
 
 slug = "mined-squares-danger"
 categories = ["blog"]

@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = 2019-03-24T20:47:13+08:00
-description = ""
+description = "About Ars Atomica, the atomic chess blog, teaching and reference site by lichess player Illion."
 
 slug = "about"
 tags = []
